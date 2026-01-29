@@ -1,0 +1,48 @@
+{
+    "name": "queen-ruva-ai",
+    "version": "2.0.0",
+    "description": "Queen Ruva AI - Advanced WhatsApp Bot with Music, Video, and APK Downloader",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "echo \"No tests specified\" && exit 0",
+        "setup": "node setup.js",
+        "clean": "rm -rf session"
+    },
+    "keywords": [
+        "whatsapp-bot",
+        "music-downloader",
+        "video-downloader",
+        "apk-downloader",
+        "queen-ruva-ai",
+        "iconic-tech"
+    ],
+    "author": "Iconic Tech",
+    "license": "MIT",
+    "dependencies": {
+        "@whiskeysockets/baileys": "^6.4.0",
+        "axios": "^1.6.0",
+        "yt-search": "^2.10.4",
+        "ytdl-core": "^4.11.5",
+        "pino": "^8.15.0",
+        "fluent-ffmpeg": "^2.1.2",
+        "form-data": "^4.0.0",
+        "moment": "^2.29.4",
+        "fs-extra": "^11.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iconic-tech/queen-ruva-ai.git"
+    },
+    "bugs": {
+        "url": "https://github.com/iconic-tech/queen-ruva-ai/issues"
+    },
+    "homepage": "https://iconictech.lk/queen-ruva-ai"
+}
